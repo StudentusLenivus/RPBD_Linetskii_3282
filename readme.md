@@ -7,7 +7,7 @@
 ```plpgsql
 SELECT 'Hello World'
 ```
-![1](1.jpg)
+![1](1.png)
 
 
 
