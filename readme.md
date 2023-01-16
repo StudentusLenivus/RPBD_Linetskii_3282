@@ -7,7 +7,7 @@
 ```plpgsql
 SELECT 'Hello World'
 ```
-![1](1.png)
+![1](1.PNG)
 
 
 
@@ -16,7 +16,7 @@ SELECT 'Hello World'
 ```plpgsql
 SELECT CURRENT_TIME
 ```
-![2](2.png)
+![2](2.PNG)
 
 
 
