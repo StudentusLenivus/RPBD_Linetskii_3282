@@ -34,7 +34,7 @@ $$ LANGUAGE plpgsql
 ```plpgsql
 SELECT mm(2,3);
 ```
-![3](3.png)
+![3](3.PNG)
 
 
 
@@ -53,7 +53,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql
 ```
-![4_1](4_1.png)
+![4_1](4_1.PNG)
 
 switch case:
 
@@ -69,7 +69,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql
 ```
-![4_2](5_2.png)
+![4_2](5_2.PNG)
 
 
 
@@ -91,7 +91,7 @@ END
 $$ LANGUAGE plpgsql;
 ```
 
-![5_1](5_1.png)
+![5_1](5_1.PNG)
 
 WHILE:
 
@@ -107,7 +107,7 @@ END LOOP;
 END
 $$ LANGUAGE plpgsql;
 ```
-![5_2](5_2.png)
+![5_2](5_2.PNG)
 
 FOR:
 
@@ -120,7 +120,7 @@ END LOOP;
 END
 $$ LANGUAGE plpgsql;
 ```
-![5_3](5_3.png)
+![5_3](5_3.PNG)
 
 
 
@@ -145,7 +145,7 @@ $$ LANGUAGE plpgsql;
     END
     $$ LANGUAGE plpgsql;
 ```
-![6_1](6_1.png)
+![6_1](6_1.PNG)
 
 Процедура:  
 
@@ -163,7 +163,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql;
 ```
-![6_2](6_2.png)
+![6_2](6_2.PNG)
 
 
 
@@ -187,7 +187,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql;
 ```
-![7_1](7_1.png)
+![7_1](7_1.PNG)
 
 Процедура:
 
@@ -213,7 +213,7 @@ $$ LANGUAGE plpgsql;
 ~~~plpgsql
 CALL skywhywhalker(10);
 ~~~
-![7_2](7_2.png)
+![7_2](7_2.PNG)
 
 
 
@@ -231,7 +231,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql;
 ```
-![8](8.png)
+![8](8.PNG)
 
 
 
@@ -249,7 +249,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql;
 ~~~
-![9](9.png)
+![9](9.PNG)
 
 
 
@@ -267,7 +267,7 @@ BEGIN
 END
 $$ LANGUAGE plpgsql;
 ```
-![10](10.png)
+![10](10.PNG)
 
 
 
@@ -302,7 +302,7 @@ BEGIN;
 			(2, 4, 5, 'сестра');
 COMMIT;
 ```
-![12](12.png)
+![12](12.PNG)
 
 
 
@@ -319,7 +319,7 @@ COMMIT;
 ```plpgsql
 ALTER TABLE people ADD COLUMN update_date date default now()
 ```
-![14](14.png)
+![14](14.PNG)
 
 <h4>15. Напишите процедуру, которая позволяет актуализировать рост и вес человека.</h4>
 
@@ -338,5 +338,5 @@ $$ LANGUAGE plpgsql
 ```plpgsql
 call update(1, 150, 40);
 ```
-![15_1](15_1.png)
-![15_2](15_2.png)
+![15_1](15_1.PNG)
+![15_2](15_2.PNG)
